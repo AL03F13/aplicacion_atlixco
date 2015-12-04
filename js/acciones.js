@@ -4,7 +4,7 @@ document.addEventListener("deviceready",function(){
 	$('#btn_listar').on('tap',function(){
 		$.ajax({
 			type: "POST",
-			url: "http://192.168.1.195/proyecto_atlixco/buscar_todas.php",
+			url: "http://192.168.1.64/proyecto_atlixco/buscar_todas.php",
 			//data: "nombre=" . $('#txtnombre').val(),
 			error: function(){
 			 alert("no se puede conectar al servidor");	
