@@ -30,7 +30,7 @@ document.addEventListener("deviceready",function(){
 	});//tap boton listado completo
 	
 	$('#btn_buscar').on('tap',function(){
-		alert($('#txtnombre').val());
+		$('#txtnombre').val();
 		$.ajax({
 			type: "POST",
 			url: "http://192.168.1.195/proyecto_atlixco/busqueda_nombre.php",
@@ -41,7 +41,7 @@ document.addEventListener("deviceready",function(){
 
 			success: function(respuesta)
 			{
-				alert(respuesta);
+				
 				var datos_t = JSON.parse(respuesta);
 				$('#busquedax').empty();
 				
