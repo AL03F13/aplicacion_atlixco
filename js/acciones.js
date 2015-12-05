@@ -40,6 +40,7 @@ document.addEventListener("deviceready",function(){
 			},
 			success: function(respuesta)
 			{
+				alert(respuesta);
 				var datos_t = JSON.parse(respuesta);
 				$('#busquedax').empty();
 				
