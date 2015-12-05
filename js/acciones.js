@@ -34,10 +34,11 @@ document.addEventListener("deviceready",function(){
 		$.ajax({
 			type: "POST",
 			url: "http://192.168.1.195/proyecto_atlixco/busqueda_nombre.php",
-			data: "nombre=" . $('#txtnombre').val(),
+			data: "nombre=" + $('#txtnombre').val(),
 			error: function(){
 			 alert("no se puede conectar al servidor");	
 			},
+
 			success: function(respuesta)
 			{
 				alert(respuesta);
