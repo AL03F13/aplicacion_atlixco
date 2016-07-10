@@ -2,17 +2,17 @@
  <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->  
  <widget xmlns   = "http://www.w3.org/ns/widgets"  
      xmlns:gap = "http://phonegap.com/ns/1.0"  
-     id    = "com.phonegap.turismo"  
+     id    = "com.phonegap.AMOR"  
      version  = "1.0.0">  
 	 
-   <name> APLICACION TURISTICA </name>  
+   <name> AMOR </name>  
    
    <description>  
-     TURISMO
+     AMOR_EYJ
    </description>  
    
    <author href="https://build.phonegap.com" email="micorreo@gmail.com">  
-       ERI,BETI,SERGIO
+       Nombre
    </author>  
    
    <!-- Personaliza la aplicacion y plataforma  -->  
